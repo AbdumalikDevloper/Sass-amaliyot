@@ -1,0 +1,1019 @@
+$white: white;
+$blue: rgb(0, 225, 255);
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background: rgb(74, 0, 170);
+}
+::-webkit-scrollbar-thumb {
+    background: #fff;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+    transition: .3s linear;
+}
+
+*{
+    box-sizing: border-box;
+}
+html, body{
+    margin: 0;
+    overflow-x: hidden;
+    .home{
+        background-image: url('../img/trees-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        // height: 100vh;
+        // width: 100%;
+        .collapse{
+            margin-left: 12rem;
+            .nav-link{
+                padding: 10px 10px;
+                font-size: 20px;
+                text-transform: uppercase;
+            }
+            .nav-link:hover{
+                color: $blue;
+                transition: 0.3s linear;
+            }
+        }
+        .center{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            padding-top: 11rem;
+            padding-left: 11rem;
+            padding-right: 11rem;
+            padding-bottom: 0;
+            h1{
+                font-size: 25px;
+                color: $white;
+                position: relative;
+            }
+            h1::after{
+                content: '';
+                height: 3px;
+                width: 90px;
+                background-color: $blue;
+                position: absolute;
+                text-align: center;
+                top: 120%;
+                left: 40%;
+            }
+            P{
+                font-size: 16px;
+                color: $white;
+                text-align: center;
+                padding: 1rem;
+            }
+            button{
+                padding: 10px 15px;
+                margin: 15px;
+                background-color: transparent;
+                border: 1px solid $blue;
+                color: $blue;
+                font-size: 15px;
+                font-weight: bold;
+            }
+            button:hover{
+                color: rgb(2,0,36);
+                background-color: $blue;
+                border: 1px solid $blue;
+                transition: 0.3s linear;
+            }
+            .boxes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: 7rem;
+                padding: 20px;
+                div{
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    background-color: $blue;
+                    margin: 3px;
+                }
+                .top{
+                    height: 15px;
+                    width: 15px;
+                    border-radius: 50%;
+                    background-color: transparent;
+                    border: 1px solid $blue;
+                }
+            }
+        }
+    }
+    .page{
+        .container{
+            display: flex;
+            align-items: center;
+            padding: 3rem 6rem;
+            img{
+                padding: 0 5rem;
+            }
+            .boxes{
+                width: 50%;
+                .btn{
+                    color: $blue;
+                    background-color: transparent;
+                    border: 2px solid $blue;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+    .story{
+        background-image: url('../img/story-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        // height: 85vh;
+        .container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // height: 85vh;
+            .boxes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                padding: 17rem;
+                i{
+                    color: $white;
+                    padding: 1rem;
+                }
+                h3{
+                    color: $white;
+                }
+            }
+        }
+    }
+    .expertise{
+        .container{
+            .row{
+                .col-md-4{
+                    img{
+                        height: 20%;
+                    }
+                    h5{
+                        padding: 10px;
+                        font-weight: bold;
+                    }
+                }
+            }
+        }
+    }
+    .team{
+        // height: 100vh;
+        background-image: url('../img/team-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container{
+            h4{
+                color: $white;
+                padding-top: 3rem;
+            }
+            p{
+                color: $white;
+                position: relative;
+            }
+            p::after{
+                content: '';
+                height: 3px;
+                width: 90px;
+                background-color: $blue;
+                position: absolute;
+                text-align: center;
+                top: 120%;
+                left: 47%;
+            }
+            .row{
+                .col-md-3{
+                    .div{
+                        padding: 10px 30px;
+                        border: 3px solid;
+                        h5{
+                            color: $white;
+                        }
+                        h6{
+                            color: $white;
+                        }
+                    }
+                }
+            }
+            .box{
+                h5{
+                    color: $white;
+                }
+                button{
+                    padding: 10px 15px;
+                    margin: 15px;
+                    background-color: transparent;
+                    border: 1px solid $blue;
+                    color: $blue;
+                    font-size: 15px;
+                    font-weight: bold;
+                }
+                button:hover{
+                    color: rgb(2,0,36);
+                    background-color: $blue;
+                    border: 2px solid $blue;
+                    transition: 0.3s linear;
+                }
+            }
+        }
+    }
+    .learn{
+        button{
+            padding: 10px 15px;
+            margin: 15px;
+            background-color: transparent;
+            border: 1px solid $blue;
+            color: $blue;
+            font-size: 15px;
+            font-weight: bold;
+        }
+        button:hover{
+            color: rgb(2,0,36);
+            background-color: $blue;
+            border: 2px solid $blue;
+            transition: 0.3s linear;
+        }
+    }
+    .people{
+        background-image: url('../img/people-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        // height: 75vh;
+        .container{
+            i{
+                color: $white;
+            }
+            p{
+                color: $white;
+                padding: 3rem 15rem;
+                font-family: sans-serif;
+            }
+            h5{
+                text-transform: uppercase;
+                color: $white;
+                padding: 0;
+            }
+            h6{
+                color: $white;
+            }
+            .boxes{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 1rem;
+                img{
+                    border-radius: 50%;
+                    margin-top: 1rem;
+                    margin: 10px;
+                }
+            }
+        }
+    }
+    .brand{
+        .klass{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            input{
+                padding: 1rem;
+                margin: 5px;
+                text-align: left;
+                width: 100%;
+            }
+            .input4{
+                padding: 3rem;
+            }
+        }
+        .rasm{
+            img{
+                width: 45%;
+                padding: 1rem 2rem;
+            }
+        }
+    }
+    .footer{
+        background-image: url('../img/footer-bg.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        .container{
+            .row{
+                .col-md-4{
+                    .boxes{
+                        display: flex;
+                    }
+                    .text{
+                        color: $white;
+                        padding: 0 10px;
+                    }
+                    h4{
+                        color: $white;
+                        font-size: 17px;
+                        margin-top: 1rem;
+                    }
+                    img{
+                        margin-left: 2rem;
+                    }
+                    p{
+                        color: $white;
+                        font-size: 15px;
+                    }
+                    .box{
+                        display: flex;
+                        i{
+                            color: $white;
+                            padding: 0.7rem;
+                        }
+                    }
+                    .box1{
+                        display: flex;
+                        align-items: center;
+                        h5{
+                            color: $white;
+                        }
+                    }
+                    .box2{
+                        input{
+                            background-color: transparent;
+                            padding: 10px;
+                            border: 1px solid $white;
+                        }
+                        i{
+                            color: $white;
+                            padding: 7px 13px;
+                            margin-left: 10px;
+                            background-color: rgba(255, 255, 255, 0.788);
+                        }
+                    }
+                    .box3{
+                        i{
+                            margin-top: 20px;
+                            margin-left: 5px;
+                            margin-right: 5px;
+                            padding: 10px;
+                            font-size: 15px;
+                            color: $white;
+                            border: 1px solid $white;
+                            border-radius: 50%;
+                            width: 35px;
+                        }
+                        i:hover{
+                            transition: 0.3s linear;
+                            color: $blue;
+                            border: 1px solid $blue;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 1140px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            .container{
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+
+@media screen and (max-width: 1000px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            .container{
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (max-width: 875px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            .container{
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (max-width: 740px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                        .nav-link{
+                            padding: 0;
+                            font-size: 13px;
+                        }
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            .container{
+                padding: 1rem;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .brand{
+            padding: 1rem;
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (max-width: 600px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            height: 100vh;
+            .container{
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (max-width: 470px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            height: 100vh;
+            .container{
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media screen and (max-width: 370px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            height: 100vh;
+            .container{
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}
+
+@media (max-width: 330px) and (min-width: 315px){
+    html, body{
+        overflow-x: hidden;
+        .home{
+            .container{
+                .navbar{
+                    .collapse{
+                        margin-left: 2rem;
+                    }
+                }
+                .center{
+                    padding: 0;
+                    h1{
+                        font-size: 17px;
+                        text-align: center;
+                        padding-top: 3rem;
+                    }
+                    p{
+                        font-size: 12px;
+                    }
+                    .button{
+                        font-size: 16px;
+                    }
+                    .boxes{
+                        margin-top: 4.5rem;
+                    }
+                }
+            }
+        }
+        .page{
+            height: 100vh;
+            .container{
+                padding: 0;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                img{
+                    padding: 0.2rem 1rem;
+                }
+                .boxes{
+                    margin-top: 2rem;
+                    width: 75%;
+                    h3{
+                        font-size: 18px;
+                    }
+                    p{
+                        font-size: 13px;
+                    }
+                }
+            }
+        }
+        .story{
+            .container{
+                .boxes{
+                    padding: 5rem;
+                    h3{
+                        text-align: center;
+                    }
+                }
+            }
+        }
+        .people{
+            .container{
+                p{
+                    padding: 0;
+                }
+                .boxes{
+                    .box{
+                        img{
+                            margin: 1px;
+                        }
+                    }
+                }
+            }
+        }    
+    }
+}

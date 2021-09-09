@@ -1,0 +1,1021 @@
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: #4a00aa;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #fff;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  -webkit-transition: .3s linear;
+  transition: .3s linear;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html, body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+html .home, body .home {
+  background-image: url("../img/trees-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .home .collapse, body .home .collapse {
+  margin-left: 12rem;
+}
+
+html .home .collapse .nav-link, body .home .collapse .nav-link {
+  padding: 10px 10px;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+html .home .collapse .nav-link:hover, body .home .collapse .nav-link:hover {
+  color: #00e1ff;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html .home .center, body .home .center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding-top: 11rem;
+  padding-left: 11rem;
+  padding-right: 11rem;
+  padding-bottom: 0;
+}
+
+html .home .center h1, body .home .center h1 {
+  font-size: 25px;
+  color: white;
+  position: relative;
+}
+
+html .home .center h1::after, body .home .center h1::after {
+  content: '';
+  height: 3px;
+  width: 90px;
+  background-color: #00e1ff;
+  position: absolute;
+  text-align: center;
+  top: 120%;
+  left: 40%;
+}
+
+html .home .center P, body .home .center P {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+html .home .center button, body .home .center button {
+  padding: 10px 15px;
+  margin: 15px;
+  background-color: transparent;
+  border: 1px solid #00e1ff;
+  color: #00e1ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+html .home .center button:hover, body .home .center button:hover {
+  color: #020024;
+  background-color: #00e1ff;
+  border: 1px solid #00e1ff;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html .home .center .boxes, body .home .center .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 7rem;
+  padding: 20px;
+}
+
+html .home .center .boxes div, body .home .center .boxes div {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: #00e1ff;
+  margin: 3px;
+}
+
+html .home .center .boxes .top, body .home .center .boxes .top {
+  height: 15px;
+  width: 15px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #00e1ff;
+}
+
+html .page .container, body .page .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3rem 6rem;
+}
+
+html .page .container img, body .page .container img {
+  padding: 0 5rem;
+}
+
+html .page .container .boxes, body .page .container .boxes {
+  width: 50%;
+}
+
+html .page .container .boxes .btn, body .page .container .boxes .btn {
+  color: #00e1ff;
+  background-color: transparent;
+  border: 2px solid #00e1ff;
+  font-weight: 500;
+}
+
+html .story, body .story {
+  background-image: url("../img/story-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .story .container, body .story .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+html .story .container .boxes, body .story .container .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  padding: 17rem;
+}
+
+html .story .container .boxes i, body .story .container .boxes i {
+  color: white;
+  padding: 1rem;
+}
+
+html .story .container .boxes h3, body .story .container .boxes h3 {
+  color: white;
+}
+
+html .expertise .container .row .col-md-4 img, body .expertise .container .row .col-md-4 img {
+  height: 20%;
+}
+
+html .expertise .container .row .col-md-4 h5, body .expertise .container .row .col-md-4 h5 {
+  padding: 10px;
+  font-weight: bold;
+}
+
+html .team, body .team {
+  background-image: url("../img/team-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .team .container h4, body .team .container h4 {
+  color: white;
+  padding-top: 3rem;
+}
+
+html .team .container p, body .team .container p {
+  color: white;
+  position: relative;
+}
+
+html .team .container p::after, body .team .container p::after {
+  content: '';
+  height: 3px;
+  width: 90px;
+  background-color: #00e1ff;
+  position: absolute;
+  text-align: center;
+  top: 120%;
+  left: 47%;
+}
+
+html .team .container .row .col-md-3 .div, body .team .container .row .col-md-3 .div {
+  padding: 10px 30px;
+  border: 3px solid;
+}
+
+html .team .container .row .col-md-3 .div h5, body .team .container .row .col-md-3 .div h5 {
+  color: white;
+}
+
+html .team .container .row .col-md-3 .div h6, body .team .container .row .col-md-3 .div h6 {
+  color: white;
+}
+
+html .team .container .box h5, body .team .container .box h5 {
+  color: white;
+}
+
+html .team .container .box button, body .team .container .box button {
+  padding: 10px 15px;
+  margin: 15px;
+  background-color: transparent;
+  border: 1px solid #00e1ff;
+  color: #00e1ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+html .team .container .box button:hover, body .team .container .box button:hover {
+  color: #020024;
+  background-color: #00e1ff;
+  border: 2px solid #00e1ff;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html .learn button, body .learn button {
+  padding: 10px 15px;
+  margin: 15px;
+  background-color: transparent;
+  border: 1px solid #00e1ff;
+  color: #00e1ff;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+html .learn button:hover, body .learn button:hover {
+  color: #020024;
+  background-color: #00e1ff;
+  border: 2px solid #00e1ff;
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+html .people, body .people {
+  background-image: url("../img/people-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .people .container i, body .people .container i {
+  color: white;
+}
+
+html .people .container p, body .people .container p {
+  color: white;
+  padding: 3rem 15rem;
+  font-family: sans-serif;
+}
+
+html .people .container h5, body .people .container h5 {
+  text-transform: uppercase;
+  color: white;
+  padding: 0;
+}
+
+html .people .container h6, body .people .container h6 {
+  color: white;
+}
+
+html .people .container .boxes, body .people .container .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 1rem;
+}
+
+html .people .container .boxes img, body .people .container .boxes img {
+  border-radius: 50%;
+  margin-top: 1rem;
+  margin: 10px;
+}
+
+html .brand .klass, body .brand .klass {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+html .brand .klass input, body .brand .klass input {
+  padding: 1rem;
+  margin: 5px;
+  text-align: left;
+  width: 100%;
+}
+
+html .brand .klass .input4, body .brand .klass .input4 {
+  padding: 3rem;
+}
+
+html .brand .rasm img, body .brand .rasm img {
+  width: 45%;
+  padding: 1rem 2rem;
+}
+
+html .footer, body .footer {
+  background-image: url("../img/footer-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+html .footer .container .row .col-md-4 .boxes, body .footer .container .row .col-md-4 .boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .footer .container .row .col-md-4 .text, body .footer .container .row .col-md-4 .text {
+  color: white;
+  padding: 0 10px;
+}
+
+html .footer .container .row .col-md-4 h4, body .footer .container .row .col-md-4 h4 {
+  color: white;
+  font-size: 17px;
+  margin-top: 1rem;
+}
+
+html .footer .container .row .col-md-4 img, body .footer .container .row .col-md-4 img {
+  margin-left: 2rem;
+}
+
+html .footer .container .row .col-md-4 p, body .footer .container .row .col-md-4 p {
+  color: white;
+  font-size: 15px;
+}
+
+html .footer .container .row .col-md-4 .box, body .footer .container .row .col-md-4 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+html .footer .container .row .col-md-4 .box i, body .footer .container .row .col-md-4 .box i {
+  color: white;
+  padding: 0.7rem;
+}
+
+html .footer .container .row .col-md-4 .box1, body .footer .container .row .col-md-4 .box1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+html .footer .container .row .col-md-4 .box1 h5, body .footer .container .row .col-md-4 .box1 h5 {
+  color: white;
+}
+
+html .footer .container .row .col-md-4 .box2 input, body .footer .container .row .col-md-4 .box2 input {
+  background-color: transparent;
+  padding: 10px;
+  border: 1px solid white;
+}
+
+html .footer .container .row .col-md-4 .box2 i, body .footer .container .row .col-md-4 .box2 i {
+  color: white;
+  padding: 7px 13px;
+  margin-left: 10px;
+  background-color: rgba(255, 255, 255, 0.788);
+}
+
+html .footer .container .row .col-md-4 .box3 i, body .footer .container .row .col-md-4 .box3 i {
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  border: 1px solid white;
+  border-radius: 50%;
+  width: 35px;
+}
+
+html .footer .container .row .col-md-4 .box3 i:hover, body .footer .container .row .col-md-4 .box3 i:hover {
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+  color: #00e1ff;
+  border: 1px solid #00e1ff;
+}
+
+@media screen and (max-width: 1140px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page .container, body .page .container {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page .container, body .page .container {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media screen and (max-width: 875px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page .container, body .page .container {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .navbar .collapse .nav-link, body .home .container .navbar .collapse .nav-link {
+    padding: 0;
+    font-size: 13px;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page .container, body .page .container {
+    padding: 1rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .brand, body .brand {
+    padding: 1rem;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page, body .page {
+    height: 100vh;
+  }
+  html .page .container, body .page .container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page, body .page {
+    height: 100vh;
+  }
+  html .page .container, body .page .container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page, body .page {
+    height: 100vh;
+  }
+  html .page .container, body .page .container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+
+@media (max-width: 330px) and (min-width: 315px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  html .home .container .navbar .collapse, body .home .container .navbar .collapse {
+    margin-left: 2rem;
+  }
+  html .home .container .center, body .home .container .center {
+    padding: 0;
+  }
+  html .home .container .center h1, body .home .container .center h1 {
+    font-size: 17px;
+    text-align: center;
+    padding-top: 3rem;
+  }
+  html .home .container .center p, body .home .container .center p {
+    font-size: 12px;
+  }
+  html .home .container .center .button, body .home .container .center .button {
+    font-size: 16px;
+  }
+  html .home .container .center .boxes, body .home .container .center .boxes {
+    margin-top: 4.5rem;
+  }
+  html .page, body .page {
+    height: 100vh;
+  }
+  html .page .container, body .page .container {
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  html .page .container img, body .page .container img {
+    padding: 0.2rem 1rem;
+  }
+  html .page .container .boxes, body .page .container .boxes {
+    margin-top: 2rem;
+    width: 75%;
+  }
+  html .page .container .boxes h3, body .page .container .boxes h3 {
+    font-size: 18px;
+  }
+  html .page .container .boxes p, body .page .container .boxes p {
+    font-size: 13px;
+  }
+  html .story .container .boxes, body .story .container .boxes {
+    padding: 5rem;
+  }
+  html .story .container .boxes h3, body .story .container .boxes h3 {
+    text-align: center;
+  }
+  html .people .container p, body .people .container p {
+    padding: 0;
+  }
+  html .people .container .boxes .box img, body .people .container .boxes .box img {
+    margin: 1px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
