@@ -267,7 +267,7 @@ html .team .container .box button, body .team .container .box button {
   padding: 10px 15px;
   margin: 15px;
   background-color: transparent;
-  border: 1px solid #00e1ff;
+  border: 2px solid #00e1ff;
   color: #00e1ff;
   font-size: 15px;
   font-weight: bold;
@@ -285,7 +285,7 @@ html .learn button, body .learn button {
   padding: 10px 15px;
   margin: 15px;
   background-color: transparent;
-  border: 1px solid #00e1ff;
+  border: 2px solid #00e1ff;
   color: #00e1ff;
   font-size: 15px;
   font-weight: bold;
